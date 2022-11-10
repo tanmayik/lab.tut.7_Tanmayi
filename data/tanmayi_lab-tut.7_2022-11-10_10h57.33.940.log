@@ -1,0 +1,1056 @@
+0.9598 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.5801 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+14.7216 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.7225 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa0939fb5b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa05ce49820>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.7229 	EXP 	window1: mouseVisible = True
+14.7245 	EXP 	window1: mouseVisible = False
+14.7246 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.7246 	EXP 	window1: recordFrameIntervals = False
+14.8042 	EXP 	window1: recordFrameIntervals = True
+15.6389 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.3494 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.3523 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([ 1.    , -0.0039, -0.3725]), fillColorSpace='rgb', fillRGB=array([ 1.    , -0.0039, -0.3725]), interpolate=True, lineColor=array([ 1.    , -0.0039, -0.3725]), lineColorSpace='rgb', lineRGB=array([ 1.    , -0.0039, -0.3725]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+17.4022 	EXP 	Sound sound_1 set volume 1.000
+17.4409 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.4692 	EXP 	window1: mouseVisible = True
+17.4742 	EXP 	Imported /Users/tanmayikalapatapu/Downloads/lab.tut.7_data - Sheet1.csv as conditions, 12 conditions, 3 params
+17.4762 	EXP 	Created sequence: random, trialTypes=12, nReps=5, seed=None
+17.4765 	EXP 	New trial (rep=0, index=0): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+17.4898 	WARNING 	t of last frame was 1851.35ms (=1/0)
+17.4898 	EXP 	textbox: autoLog = True
+17.4898 	EXP 	fixation: autoDraw = True
+18.4654 	EXP 	polygon: autoDraw = True
+18.4889 	EXP 	fixation: autoDraw = False
+22.1698 	WARNING 	t of last frame was 21.25ms (=1/47)
+22.1698 	EXP 	fixation: autoDraw = False
+22.1698 	EXP 	polygon: autoDraw = False
+22.1793 	DATA 	Keypress: space
+22.8672 	EXP 	text: autoDraw = True
+22.8672 	EXP 	textbox: autoDraw = True
+41.6079 	DATA 	Keypress: 4
+42.5616 	DATA 	Keypress: 0
+44.0964 	DATA 	Keypress: 0
+44.1018 	WARNING 	t of last frame was 20.02ms (=1/49)
+49.9185 	DATA 	Mouse: Left button down, pos=(690,151)
+49.9259 	EXP 	New trial (rep=0, index=1): OrderedDict([('delay', 0.4), ('freq', 400), ('condition', 'unexp')])
+49.9317 	EXP 	text: autoDraw = False
+49.9317 	EXP 	textbox: autoDraw = False
+49.9317 	EXP 	fixation: autoDraw = True
+50.0876 	DATA 	Mouse:  Left button up, pos=(690,151)
+50.9229 	EXP 	fixation: autoDraw = False
+50.9229 	EXP 	polygon: autoDraw = True
+52.0542 	DATA 	Keypress: space
+52.0598 	EXP 	fixation: autoDraw = False
+52.0598 	EXP 	polygon: autoDraw = False
+52.7485 	EXP 	text: autoDraw = True
+52.7485 	EXP 	textbox: autoDraw = True
+55.8072 	DATA 	Keypress: 2
+56.1357 	DATA 	Keypress: 0
+56.2831 	DATA 	Keypress: 0
+58.9590 	DATA 	Keypress: backspace
+59.1189 	DATA 	Keypress: backspace
+59.5019 	DATA 	Keypress: backspace
+59.9570 	DATA 	Keypress: 4
+60.1861 	DATA 	Keypress: 0
+60.2156 	WARNING 	t of last frame was 23.94ms (=1/41)
+60.2999 	DATA 	Keypress: 0
+60.7850 	DATA 	Mouse: Left button down, pos=(690,169)
+60.7906 	EXP 	New trial (rep=0, index=2): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+60.7987 	EXP 	text: autoDraw = False
+60.7987 	EXP 	textbox: autoDraw = False
+60.7987 	EXP 	fixation: autoDraw = True
+60.8875 	DATA 	Mouse:  Left button up, pos=(690,169)
+61.7883 	EXP 	fixation: autoDraw = False
+61.7883 	EXP 	polygon: autoDraw = True
+62.4874 	DATA 	Keypress: space
+62.4929 	EXP 	fixation: autoDraw = False
+62.4929 	EXP 	polygon: autoDraw = False
+62.8813 	EXP 	text: autoDraw = True
+62.8813 	EXP 	textbox: autoDraw = True
+63.9498 	DATA 	Keypress: 2
+64.5195 	DATA 	Keypress: 0
+64.5488 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+64.6998 	DATA 	Keypress: 0
+65.5661 	DATA 	Keypress: backspace
+65.7494 	DATA 	Keypress: backspace
+66.9193 	DATA 	Keypress: 0
+67.9257 	DATA 	Keypress: 0
+68.9851 	DATA 	Mouse: Left button down, pos=(698,154)
+68.9911 	EXP 	New trial (rep=0, index=3): OrderedDict([('delay', 0.7), ('freq', 400), ('condition', 'unexp')])
+68.9987 	EXP 	text: autoDraw = False
+68.9987 	EXP 	textbox: autoDraw = False
+68.9987 	EXP 	fixation: autoDraw = True
+69.1209 	DATA 	Mouse:  Left button up, pos=(698,154)
+69.9891 	EXP 	fixation: autoDraw = False
+69.9891 	EXP 	polygon: autoDraw = True
+70.8733 	DATA 	Keypress: space
+70.8823 	EXP 	fixation: autoDraw = False
+70.8823 	EXP 	polygon: autoDraw = False
+71.8655 	EXP 	text: autoDraw = True
+71.8655 	EXP 	textbox: autoDraw = True
+73.9574 	DATA 	Keypress: 7
+74.1665 	DATA 	Keypress: 0
+74.3236 	DATA 	Keypress: 0
+74.7516 	DATA 	Mouse: Left button down, pos=(698,154)
+74.7575 	EXP 	New trial (rep=0, index=4): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+74.7654 	EXP 	text: autoDraw = False
+74.7654 	EXP 	textbox: autoDraw = False
+74.7654 	EXP 	fixation: autoDraw = True
+74.9212 	DATA 	Mouse:  Left button up, pos=(698,154)
+75.7495 	EXP 	polygon: autoDraw = True
+75.7562 	EXP 	fixation: autoDraw = False
+76.0493 	EXP 	fixation: autoDraw = False
+76.0493 	EXP 	polygon: autoDraw = False
+76.0535 	DATA 	Keypress: space
+77.0440 	EXP 	text: autoDraw = True
+77.0440 	EXP 	textbox: autoDraw = True
+77.4864 	DATA 	Keypress: 7
+77.7070 	DATA 	Keypress: 0
+77.8907 	DATA 	Keypress: 0
+78.3186 	DATA 	Mouse: Left button down, pos=(698,154)
+78.3242 	EXP 	New trial (rep=0, index=5): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+78.3323 	EXP 	text: autoDraw = False
+78.3323 	EXP 	textbox: autoDraw = False
+78.3323 	EXP 	fixation: autoDraw = True
+78.4376 	DATA 	Mouse:  Left button up, pos=(698,154)
+79.3229 	EXP 	fixation: autoDraw = False
+79.3229 	EXP 	polygon: autoDraw = True
+80.1417 	DATA 	Keypress: space
+80.1488 	EXP 	fixation: autoDraw = False
+80.1488 	EXP 	polygon: autoDraw = False
+80.5447 	EXP 	text: autoDraw = True
+80.5447 	EXP 	textbox: autoDraw = True
+82.7667 	DATA 	Keypress: 2
+83.3239 	DATA 	Keypress: 0
+83.4740 	DATA 	Keypress: 0
+83.9684 	DATA 	Mouse: Left button down, pos=(698,154)
+83.9743 	EXP 	New trial (rep=0, index=6): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+83.9826 	EXP 	text: autoDraw = False
+83.9826 	EXP 	textbox: autoDraw = False
+83.9826 	EXP 	fixation: autoDraw = True
+84.1051 	DATA 	Mouse:  Left button up, pos=(698,154)
+84.9727 	EXP 	fixation: autoDraw = False
+84.9727 	EXP 	polygon: autoDraw = True
+85.5043 	DATA 	Keypress: space
+85.5100 	EXP 	fixation: autoDraw = False
+85.5100 	EXP 	polygon: autoDraw = False
+86.5090 	EXP 	text: autoDraw = True
+86.5090 	EXP 	textbox: autoDraw = True
+87.1366 	DATA 	Keypress: 4
+87.3500 	DATA 	Keypress: 0
+87.5362 	DATA 	Keypress: 0
+88.0354 	DATA 	Mouse: Left button down, pos=(698,154)
+88.0413 	EXP 	New trial (rep=0, index=7): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+88.0491 	EXP 	text: autoDraw = False
+88.0491 	EXP 	textbox: autoDraw = False
+88.0491 	EXP 	fixation: autoDraw = True
+88.2047 	DATA 	Mouse:  Left button up, pos=(698,154)
+89.0390 	EXP 	fixation: autoDraw = False
+89.0390 	EXP 	polygon: autoDraw = True
+89.7225 	DATA 	Keypress: space
+89.7281 	EXP 	fixation: autoDraw = False
+89.7281 	EXP 	polygon: autoDraw = False
+90.7154 	EXP 	text: autoDraw = True
+90.7154 	EXP 	textbox: autoDraw = True
+91.4076 	DATA 	Keypress: 4
+91.4936 	DATA 	Keypress: 0
+91.7238 	DATA 	Keypress: 0
+93.1496 	DATA 	Keypress: backspace
+93.3495 	DATA 	Keypress: backspace
+94.0070 	DATA 	Keypress: backspace
+94.0943 	DATA 	Keypress: 2
+94.6216 	DATA 	Keypress: 5
+94.7693 	DATA 	Keypress: 0
+95.2522 	DATA 	Mouse: Left button down, pos=(698,154)
+95.2581 	EXP 	New trial (rep=0, index=8): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+95.2655 	EXP 	text: autoDraw = False
+95.2655 	EXP 	textbox: autoDraw = False
+95.2655 	EXP 	fixation: autoDraw = True
+95.3710 	DATA 	Mouse:  Left button up, pos=(698,154)
+96.2559 	EXP 	fixation: autoDraw = False
+96.2559 	EXP 	polygon: autoDraw = True
+97.0427 	DATA 	Keypress: space
+97.0482 	EXP 	fixation: autoDraw = False
+97.0482 	EXP 	polygon: autoDraw = False
+97.4445 	EXP 	text: autoDraw = True
+97.4445 	EXP 	textbox: autoDraw = True
+99.0168 	DATA 	Keypress: 4
+99.1905 	DATA 	Keypress: 0
+99.4334 	DATA 	Keypress: 0
+100.1687 	DATA 	Mouse: Left button down, pos=(698,154)
+100.1743 	EXP 	New trial (rep=0, index=9): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+100.1822 	EXP 	text: autoDraw = False
+100.1822 	EXP 	textbox: autoDraw = False
+100.1822 	EXP 	fixation: autoDraw = True
+100.3044 	DATA 	Mouse:  Left button up, pos=(698,154)
+101.1731 	EXP 	fixation: autoDraw = False
+101.1731 	EXP 	polygon: autoDraw = True
+101.5376 	DATA 	Keypress: space
+101.5433 	EXP 	fixation: autoDraw = False
+101.5433 	EXP 	polygon: autoDraw = False
+102.2488 	EXP 	text: autoDraw = True
+102.2488 	EXP 	textbox: autoDraw = True
+102.9574 	DATA 	Keypress: 4
+103.3529 	DATA 	Keypress: 0
+103.5193 	DATA 	Keypress: 0
+104.2020 	DATA 	Mouse: Left button down, pos=(698,154)
+104.2080 	EXP 	New trial (rep=0, index=10): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+104.2156 	EXP 	text: autoDraw = False
+104.2156 	EXP 	textbox: autoDraw = False
+104.2156 	EXP 	fixation: autoDraw = True
+104.3209 	DATA 	Mouse:  Left button up, pos=(698,154)
+105.2060 	EXP 	fixation: autoDraw = False
+105.2060 	EXP 	polygon: autoDraw = True
+105.5690 	DATA 	Keypress: space
+105.5742 	EXP 	fixation: autoDraw = False
+105.5742 	EXP 	polygon: autoDraw = False
+106.2601 	EXP 	text: autoDraw = True
+106.2601 	EXP 	textbox: autoDraw = True
+106.7239 	DATA 	Keypress: 4
+107.0696 	DATA 	Keypress: 0
+107.2573 	DATA 	Keypress: 0
+107.9688 	DATA 	Mouse: Left button down, pos=(698,154)
+107.9744 	EXP 	New trial (rep=0, index=11): OrderedDict([('delay', 0.1), ('freq', 400), ('condition', 'unexp')])
+107.9825 	EXP 	text: autoDraw = False
+107.9825 	EXP 	textbox: autoDraw = False
+107.9825 	EXP 	fixation: autoDraw = True
+108.1044 	DATA 	Mouse:  Left button up, pos=(698,154)
+108.9724 	EXP 	fixation: autoDraw = False
+108.9724 	EXP 	polygon: autoDraw = True
+109.8735 	DATA 	Keypress: space
+109.8824 	EXP 	fixation: autoDraw = False
+109.8824 	EXP 	polygon: autoDraw = False
+110.2657 	EXP 	text: autoDraw = True
+110.2657 	EXP 	textbox: autoDraw = True
+111.7030 	DATA 	Keypress: 2
+112.7029 	DATA 	Keypress: 0
+112.9265 	DATA 	Keypress: 0
+115.1431 	DATA 	Keypress: backspace
+115.3163 	DATA 	Keypress: backspace
+115.7664 	DATA 	Keypress: backspace
+116.2836 	DATA 	Keypress: 5
+116.4572 	DATA 	Keypress: 0
+116.5938 	DATA 	Keypress: 0
+117.2354 	DATA 	Mouse: Left button down, pos=(698,154)
+117.2410 	EXP 	New trial (rep=1, index=0): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+117.2499 	EXP 	text: autoDraw = False
+117.2499 	EXP 	textbox: autoDraw = False
+117.2499 	EXP 	fixation: autoDraw = True
+117.3042 	DATA 	Mouse:  Left button up, pos=(698,154)
+118.2395 	EXP 	fixation: autoDraw = False
+118.2395 	EXP 	polygon: autoDraw = True
+118.6024 	DATA 	Keypress: space
+118.6080 	EXP 	fixation: autoDraw = False
+118.6080 	EXP 	polygon: autoDraw = False
+118.9936 	EXP 	text: autoDraw = True
+118.9936 	EXP 	textbox: autoDraw = True
+123.0699 	DATA 	Keypress: 2
+123.7337 	DATA 	Keypress: 5
+124.3435 	DATA 	Keypress: 0
+125.1522 	DATA 	Mouse: Left button down, pos=(698,154)
+125.1578 	EXP 	New trial (rep=1, index=1): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+125.1658 	EXP 	text: autoDraw = False
+125.1658 	EXP 	textbox: autoDraw = False
+125.1658 	EXP 	fixation: autoDraw = True
+125.2212 	DATA 	Mouse:  Left button up, pos=(698,154)
+126.1560 	EXP 	fixation: autoDraw = False
+126.1560 	EXP 	polygon: autoDraw = True
+126.7858 	DATA 	Keypress: space
+126.7914 	EXP 	fixation: autoDraw = False
+126.7914 	EXP 	polygon: autoDraw = False
+127.7769 	EXP 	text: autoDraw = True
+127.7769 	EXP 	textbox: autoDraw = True
+129.5408 	DATA 	Keypress: 5
+129.7835 	DATA 	Keypress: 0
+129.9503 	DATA 	Keypress: 0
+130.4522 	DATA 	Mouse: Left button down, pos=(698,154)
+130.4582 	EXP 	New trial (rep=1, index=2): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+130.4659 	EXP 	text: autoDraw = False
+130.4659 	EXP 	textbox: autoDraw = False
+130.4659 	EXP 	fixation: autoDraw = True
+130.5547 	DATA 	Mouse:  Left button up, pos=(698,154)
+131.4561 	EXP 	fixation: autoDraw = False
+131.4561 	EXP 	polygon: autoDraw = True
+131.9728 	DATA 	Keypress: space
+131.9781 	EXP 	fixation: autoDraw = False
+131.9781 	EXP 	polygon: autoDraw = False
+132.6657 	EXP 	text: autoDraw = True
+132.6657 	EXP 	textbox: autoDraw = True
+133.8502 	DATA 	Keypress: 5
+134.3277 	DATA 	Keypress: 0
+134.8263 	DATA 	Keypress: backspace
+135.0357 	DATA 	Keypress: backspace
+135.5410 	DATA 	Keypress: 2
+137.2235 	DATA 	Keypress: backspace
+137.4627 	DATA 	Keypress: 3
+137.6238 	DATA 	Keypress: 0
+137.7741 	DATA 	Keypress: 0
+138.5854 	DATA 	Mouse: Left button down, pos=(698,154)
+138.5913 	EXP 	New trial (rep=1, index=3): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+138.5992 	EXP 	text: autoDraw = False
+138.5992 	EXP 	textbox: autoDraw = False
+138.5992 	EXP 	fixation: autoDraw = True
+138.6880 	DATA 	Mouse:  Left button up, pos=(698,154)
+139.5898 	EXP 	fixation: autoDraw = False
+139.5898 	EXP 	polygon: autoDraw = True
+139.9541 	DATA 	Keypress: space
+139.9596 	EXP 	fixation: autoDraw = False
+139.9596 	EXP 	polygon: autoDraw = False
+140.9485 	EXP 	text: autoDraw = True
+140.9485 	EXP 	textbox: autoDraw = True
+142.4380 	DATA 	Keypress: 6
+142.6576 	DATA 	Keypress: 0
+142.8836 	DATA 	Keypress: 0
+143.4855 	DATA 	Mouse: Left button down, pos=(698,154)
+143.4912 	EXP 	New trial (rep=1, index=4): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+143.4993 	EXP 	text: autoDraw = False
+143.4993 	EXP 	textbox: autoDraw = False
+143.4993 	EXP 	fixation: autoDraw = True
+143.5880 	DATA 	Mouse:  Left button up, pos=(698,154)
+144.4888 	EXP 	fixation: autoDraw = False
+144.4888 	EXP 	polygon: autoDraw = True
+145.0923 	DATA 	Keypress: space
+145.0993 	EXP 	fixation: autoDraw = False
+145.0993 	EXP 	polygon: autoDraw = False
+145.7944 	EXP 	text: autoDraw = True
+145.7944 	EXP 	textbox: autoDraw = True
+146.9836 	DATA 	Keypress: 4
+147.3338 	DATA 	Keypress: 0
+147.5604 	DATA 	Keypress: 0
+148.1522 	DATA 	Mouse: Left button down, pos=(698,154)
+148.1580 	EXP 	New trial (rep=1, index=5): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+148.1659 	EXP 	text: autoDraw = False
+148.1659 	EXP 	textbox: autoDraw = False
+148.1659 	EXP 	fixation: autoDraw = True
+148.2045 	DATA 	Mouse:  Left button up, pos=(698,154)
+149.1561 	EXP 	fixation: autoDraw = False
+149.1561 	EXP 	polygon: autoDraw = True
+149.7713 	DATA 	Keypress: space
+149.7770 	EXP 	fixation: autoDraw = False
+149.7770 	EXP 	polygon: autoDraw = False
+150.4662 	EXP 	text: autoDraw = True
+150.4662 	EXP 	textbox: autoDraw = True
+151.6197 	DATA 	Keypress: 4
+151.8864 	DATA 	Keypress: 0
+152.1337 	DATA 	Keypress: 0
+153.4523 	DATA 	Mouse: Left button down, pos=(698,154)
+153.4581 	EXP 	New trial (rep=1, index=6): OrderedDict([('delay', 0.4), ('freq', 400), ('condition', 'unexp')])
+153.4663 	EXP 	text: autoDraw = False
+153.4663 	EXP 	textbox: autoDraw = False
+153.4663 	EXP 	fixation: autoDraw = True
+153.5546 	DATA 	Mouse:  Left button up, pos=(698,154)
+154.4541 	EXP 	fixation: autoDraw = False
+154.4541 	EXP 	polygon: autoDraw = True
+154.8088 	DATA 	Keypress: space
+154.8159 	EXP 	fixation: autoDraw = False
+154.8159 	EXP 	polygon: autoDraw = False
+155.4988 	EXP 	text: autoDraw = True
+155.4988 	EXP 	textbox: autoDraw = True
+156.7004 	DATA 	Keypress: 2
+157.0574 	DATA 	Keypress: 0
+157.2837 	DATA 	Keypress: 0
+157.9187 	DATA 	Mouse: Left button down, pos=(698,154)
+157.9247 	EXP 	New trial (rep=1, index=7): OrderedDict([('delay', 0.1), ('freq', 400), ('condition', 'unexp')])
+157.9326 	EXP 	text: autoDraw = False
+157.9326 	EXP 	textbox: autoDraw = False
+157.9326 	EXP 	fixation: autoDraw = True
+158.0213 	DATA 	Mouse:  Left button up, pos=(698,154)
+158.9233 	EXP 	fixation: autoDraw = False
+158.9233 	EXP 	polygon: autoDraw = True
+159.5547 	DATA 	Keypress: space
+159.5602 	EXP 	fixation: autoDraw = False
+159.5602 	EXP 	polygon: autoDraw = False
+159.9609 	EXP 	text: autoDraw = True
+159.9609 	EXP 	textbox: autoDraw = True
+160.7671 	DATA 	Keypress: 2
+161.3904 	DATA 	Keypress: backspace
+161.6478 	DATA 	Keypress: 1
+161.8533 	DATA 	Keypress: 0
+162.0245 	DATA 	Keypress: 0
+162.5358 	DATA 	Mouse: Left button down, pos=(698,154)
+162.5416 	EXP 	New trial (rep=1, index=8): OrderedDict([('delay', 0.7), ('freq', 400), ('condition', 'unexp')])
+162.5492 	EXP 	text: autoDraw = False
+162.5492 	EXP 	textbox: autoDraw = False
+162.5492 	EXP 	fixation: autoDraw = True
+162.6380 	DATA 	Mouse:  Left button up, pos=(698,154)
+163.5397 	EXP 	fixation: autoDraw = False
+163.5397 	EXP 	polygon: autoDraw = True
+163.8092 	DATA 	Keypress: space
+163.8161 	EXP 	fixation: autoDraw = False
+163.8161 	EXP 	polygon: autoDraw = False
+164.8106 	EXP 	text: autoDraw = True
+164.8106 	EXP 	textbox: autoDraw = True
+166.2912 	DATA 	Keypress: 3
+166.5504 	DATA 	Keypress: 0
+166.7837 	DATA 	Keypress: 0
+167.2355 	DATA 	Mouse: Left button down, pos=(698,154)
+167.2413 	EXP 	New trial (rep=1, index=9): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+167.2493 	EXP 	text: autoDraw = False
+167.2493 	EXP 	textbox: autoDraw = False
+167.2493 	EXP 	fixation: autoDraw = True
+167.3380 	DATA 	Mouse:  Left button up, pos=(698,154)
+168.2399 	EXP 	fixation: autoDraw = False
+168.2399 	EXP 	polygon: autoDraw = True
+168.4883 	DATA 	Keypress: space
+168.4997 	EXP 	fixation: autoDraw = False
+168.4997 	EXP 	polygon: autoDraw = False
+168.8816 	EXP 	text: autoDraw = True
+168.8816 	EXP 	textbox: autoDraw = True
+170.5937 	DATA 	Keypress: 1
+170.7262 	DATA 	Keypress: 0
+170.8696 	DATA 	Keypress: 0
+171.3856 	DATA 	Mouse: Left button down, pos=(698,154)
+171.3913 	EXP 	New trial (rep=1, index=10): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+171.3993 	EXP 	text: autoDraw = False
+171.3993 	EXP 	textbox: autoDraw = False
+171.3993 	EXP 	fixation: autoDraw = True
+171.4880 	DATA 	Mouse:  Left button up, pos=(698,154)
+172.3896 	EXP 	fixation: autoDraw = False
+172.3896 	EXP 	polygon: autoDraw = True
+172.6884 	DATA 	Keypress: space
+172.6995 	EXP 	fixation: autoDraw = False
+172.6995 	EXP 	polygon: autoDraw = False
+173.0841 	EXP 	text: autoDraw = True
+173.0841 	EXP 	textbox: autoDraw = True
+173.8338 	DATA 	Keypress: 1
+174.0076 	DATA 	Keypress: 0
+174.1530 	DATA 	Keypress: 0
+175.2523 	DATA 	Mouse: Left button down, pos=(698,154)
+175.2582 	EXP 	New trial (rep=1, index=11): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+175.2659 	EXP 	text: autoDraw = False
+175.2659 	EXP 	textbox: autoDraw = False
+175.2659 	EXP 	fixation: autoDraw = True
+175.3547 	DATA 	Mouse:  Left button up, pos=(698,154)
+176.2568 	EXP 	fixation: autoDraw = False
+176.2568 	EXP 	polygon: autoDraw = True
+176.7053 	DATA 	Keypress: space
+176.7162 	EXP 	fixation: autoDraw = False
+176.7162 	EXP 	polygon: autoDraw = False
+177.7123 	EXP 	text: autoDraw = True
+177.7123 	EXP 	textbox: autoDraw = True
+179.3108 	DATA 	Keypress: 2
+180.4004 	DATA 	Keypress: 0
+180.5534 	DATA 	Keypress: 0
+180.9692 	DATA 	Mouse: Left button down, pos=(698,154)
+180.9748 	EXP 	New trial (rep=2, index=0): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+180.9826 	EXP 	text: autoDraw = False
+180.9826 	EXP 	textbox: autoDraw = False
+180.9826 	EXP 	fixation: autoDraw = True
+181.0714 	DATA 	Mouse:  Left button up, pos=(698,154)
+181.9733 	EXP 	fixation: autoDraw = False
+181.9733 	EXP 	polygon: autoDraw = True
+182.2873 	DATA 	Keypress: space
+182.2928 	EXP 	fixation: autoDraw = False
+182.2928 	EXP 	polygon: autoDraw = False
+183.2996 	EXP 	text: autoDraw = True
+183.2996 	EXP 	textbox: autoDraw = True
+183.8105 	DATA 	Keypress: 2
+184.1364 	DATA 	Keypress: 0
+184.3671 	DATA 	Keypress: 0
+185.3029 	DATA 	Keypress: backspace
+185.5360 	DATA 	Keypress: backspace
+185.7832 	DATA 	Keypress: backspace
+186.3412 	DATA 	Keypress: 3
+186.5936 	DATA 	Keypress: 0
+186.7434 	DATA 	Keypress: 0
+187.1191 	DATA 	Mouse: Left button down, pos=(698,154)
+187.1250 	EXP 	New trial (rep=2, index=1): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+187.1328 	EXP 	text: autoDraw = False
+187.1328 	EXP 	textbox: autoDraw = False
+187.1328 	EXP 	fixation: autoDraw = True
+187.2549 	DATA 	Mouse:  Left button up, pos=(698,154)
+188.1230 	EXP 	fixation: autoDraw = False
+188.1230 	EXP 	polygon: autoDraw = True
+188.4383 	EXP 	fixation: autoDraw = False
+188.4383 	EXP 	polygon: autoDraw = False
+188.4402 	DATA 	Keypress: space
+189.1279 	EXP 	text: autoDraw = True
+189.1279 	EXP 	textbox: autoDraw = True
+190.8603 	DATA 	Keypress: 2
+191.1171 	DATA 	Keypress: 0
+191.2744 	DATA 	Keypress: 0
+191.6520 	DATA 	Mouse: Left button down, pos=(698,154)
+191.6577 	EXP 	New trial (rep=2, index=2): OrderedDict([('delay', 0.7), ('freq', 400), ('condition', 'unexp')])
+191.6661 	EXP 	text: autoDraw = False
+191.6661 	EXP 	textbox: autoDraw = False
+191.6661 	EXP 	fixation: autoDraw = True
+191.7715 	DATA 	Mouse:  Left button up, pos=(698,154)
+192.6564 	EXP 	fixation: autoDraw = False
+192.6564 	EXP 	polygon: autoDraw = True
+193.2381 	DATA 	Keypress: space
+193.2498 	EXP 	fixation: autoDraw = False
+193.2498 	EXP 	polygon: autoDraw = False
+194.2328 	EXP 	text: autoDraw = True
+194.2328 	EXP 	textbox: autoDraw = True
+195.6074 	DATA 	Keypress: 4
+195.7909 	DATA 	Keypress: 0
+195.9531 	DATA 	Keypress: 0
+196.9523 	DATA 	Mouse: Left button down, pos=(698,154)
+196.9582 	EXP 	New trial (rep=2, index=3): OrderedDict([('delay', 0.4), ('freq', 400), ('condition', 'unexp')])
+196.9659 	EXP 	text: autoDraw = False
+196.9659 	EXP 	textbox: autoDraw = False
+196.9659 	EXP 	fixation: autoDraw = True
+197.0715 	DATA 	Mouse:  Left button up, pos=(698,154)
+197.9564 	EXP 	fixation: autoDraw = False
+197.9564 	EXP 	polygon: autoDraw = True
+198.9221 	DATA 	Keypress: space
+198.9332 	EXP 	fixation: autoDraw = False
+198.9332 	EXP 	polygon: autoDraw = False
+199.6151 	EXP 	text: autoDraw = True
+199.6151 	EXP 	textbox: autoDraw = True
+200.8005 	DATA 	Keypress: 3
+201.0577 	DATA 	Keypress: 0
+201.2244 	DATA 	Keypress: 0
+201.8522 	DATA 	Mouse: Left button down, pos=(698,154)
+201.8580 	EXP 	New trial (rep=2, index=4): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+201.8661 	EXP 	text: autoDraw = False
+201.8661 	EXP 	textbox: autoDraw = False
+201.8661 	EXP 	fixation: autoDraw = True
+202.0216 	DATA 	Mouse:  Left button up, pos=(698,154)
+202.8564 	EXP 	fixation: autoDraw = False
+202.8564 	EXP 	polygon: autoDraw = True
+203.1055 	DATA 	Keypress: space
+203.1111 	EXP 	fixation: autoDraw = False
+203.1111 	EXP 	polygon: autoDraw = False
+204.0988 	EXP 	text: autoDraw = True
+204.0988 	EXP 	textbox: autoDraw = True
+204.9671 	DATA 	Keypress: 4
+205.2243 	DATA 	Keypress: 0
+205.3742 	DATA 	Keypress: 0
+206.0022 	DATA 	Mouse: Left button down, pos=(698,154)
+206.0080 	EXP 	New trial (rep=2, index=5): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+206.0168 	EXP 	text: autoDraw = False
+206.0168 	EXP 	textbox: autoDraw = False
+206.0168 	EXP 	fixation: autoDraw = True
+206.2217 	DATA 	Mouse:  Left button up, pos=(698,154)
+207.0069 	EXP 	fixation: autoDraw = False
+207.0069 	EXP 	polygon: autoDraw = True
+207.3553 	DATA 	Keypress: space
+207.3662 	EXP 	fixation: autoDraw = False
+207.3662 	EXP 	polygon: autoDraw = False
+207.7622 	EXP 	text: autoDraw = True
+207.7622 	EXP 	textbox: autoDraw = True
+208.7837 	DATA 	Keypress: 2
+209.0533 	DATA 	Keypress: 0
+209.2075 	DATA 	Keypress: 0
+210.0031 	DATA 	Keypress: backspace
+210.1694 	DATA 	Keypress: backspace
+210.3191 	DATA 	Keypress: backspace
+210.8103 	DATA 	Keypress: 1
+211.0608 	DATA 	Keypress: 0
+211.2171 	DATA 	Keypress: 0
+211.7690 	DATA 	Mouse: Left button down, pos=(698,154)
+211.7749 	EXP 	New trial (rep=2, index=6): OrderedDict([('delay', 0.1), ('freq', 400), ('condition', 'unexp')])
+211.7827 	EXP 	text: autoDraw = False
+211.7827 	EXP 	textbox: autoDraw = False
+211.7827 	EXP 	fixation: autoDraw = True
+212.0218 	DATA 	Mouse:  Left button up, pos=(698,154)
+212.7725 	EXP 	fixation: autoDraw = False
+212.7725 	EXP 	polygon: autoDraw = True
+213.0426 	DATA 	Keypress: space
+213.0494 	EXP 	fixation: autoDraw = False
+213.0494 	EXP 	polygon: autoDraw = False
+213.4444 	EXP 	text: autoDraw = True
+213.4444 	EXP 	textbox: autoDraw = True
+215.2576 	DATA 	Keypress: 1
+215.5172 	DATA 	Keypress: 0
+215.6575 	DATA 	Keypress: 0
+216.3024 	DATA 	Mouse: Left button down, pos=(698,154)
+216.3084 	EXP 	New trial (rep=2, index=7): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+216.3167 	EXP 	text: autoDraw = False
+216.3167 	EXP 	textbox: autoDraw = False
+216.3167 	EXP 	fixation: autoDraw = True
+216.4886 	DATA 	Mouse:  Left button up, pos=(698,154)
+217.3068 	EXP 	fixation: autoDraw = False
+217.3068 	EXP 	polygon: autoDraw = True
+217.6213 	DATA 	Keypress: space
+217.6268 	EXP 	fixation: autoDraw = False
+217.6268 	EXP 	polygon: autoDraw = False
+218.3289 	EXP 	text: autoDraw = True
+218.3289 	EXP 	textbox: autoDraw = True
+218.6201 	DATA 	Keypress: 3
+218.9200 	DATA 	Keypress: 0
+219.1004 	DATA 	Keypress: 0
+220.4692 	DATA 	Mouse: Left button down, pos=(698,154)
+220.4750 	EXP 	New trial (rep=2, index=8): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+220.4826 	EXP 	text: autoDraw = False
+220.4826 	EXP 	textbox: autoDraw = False
+220.4826 	EXP 	fixation: autoDraw = True
+220.6219 	DATA 	Mouse:  Left button up, pos=(698,154)
+221.4726 	EXP 	fixation: autoDraw = False
+221.4726 	EXP 	polygon: autoDraw = True
+221.8543 	DATA 	Keypress: space
+221.8599 	EXP 	fixation: autoDraw = False
+221.8599 	EXP 	polygon: autoDraw = False
+222.5493 	EXP 	text: autoDraw = True
+222.5493 	EXP 	textbox: autoDraw = True
+223.3036 	DATA 	Keypress: 5
+223.5034 	DATA 	Keypress: 0
+223.6504 	DATA 	Keypress: 0
+225.1194 	DATA 	Mouse: Left button down, pos=(698,154)
+225.1198 	DATA 	Mouse:  Left button up, pos=(698,154)
+225.7691 	DATA 	Mouse: Left button down, pos=(698,154)
+225.7748 	EXP 	New trial (rep=2, index=9): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+225.7829 	EXP 	text: autoDraw = False
+225.7829 	EXP 	textbox: autoDraw = False
+225.7829 	EXP 	fixation: autoDraw = True
+225.9717 	DATA 	Mouse:  Left button up, pos=(698,154)
+226.7730 	EXP 	fixation: autoDraw = False
+226.7730 	EXP 	polygon: autoDraw = True
+227.2211 	DATA 	Keypress: space
+227.2333 	EXP 	fixation: autoDraw = False
+227.2333 	EXP 	polygon: autoDraw = False
+228.2328 	EXP 	text: autoDraw = True
+228.2328 	EXP 	textbox: autoDraw = True
+229.1610 	DATA 	Keypress: 6
+229.4338 	DATA 	Keypress: 0
+229.5838 	DATA 	Keypress: 0
+229.9855 	DATA 	Mouse: Left button down, pos=(698,154)
+229.9911 	EXP 	New trial (rep=2, index=10): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+229.9998 	EXP 	text: autoDraw = False
+229.9998 	EXP 	textbox: autoDraw = False
+229.9998 	EXP 	fixation: autoDraw = True
+230.1383 	DATA 	Mouse:  Left button up, pos=(698,154)
+230.9898 	EXP 	fixation: autoDraw = False
+230.9898 	EXP 	polygon: autoDraw = True
+231.4703 	DATA 	Keypress: space
+231.4831 	EXP 	fixation: autoDraw = False
+231.4831 	EXP 	polygon: autoDraw = False
+231.8650 	EXP 	text: autoDraw = True
+231.8650 	EXP 	textbox: autoDraw = True
+232.9671 	DATA 	Keypress: 3
+233.2366 	DATA 	Keypress: 0
+233.3534 	DATA 	Keypress: 0
+233.7856 	DATA 	Mouse: Left button down, pos=(698,154)
+233.7913 	EXP 	New trial (rep=2, index=11): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+233.7995 	EXP 	text: autoDraw = False
+233.7995 	EXP 	textbox: autoDraw = False
+233.7995 	EXP 	fixation: autoDraw = True
+233.9383 	DATA 	Mouse:  Left button up, pos=(698,154)
+234.7895 	EXP 	fixation: autoDraw = False
+234.7895 	EXP 	polygon: autoDraw = True
+236.9720 	DATA 	Keypress: space
+236.9830 	EXP 	fixation: autoDraw = False
+236.9830 	EXP 	polygon: autoDraw = False
+237.3653 	EXP 	text: autoDraw = True
+237.3653 	EXP 	textbox: autoDraw = True
+242.7530 	DATA 	Keypress: 2
+242.9534 	DATA 	Keypress: 0
+243.0840 	DATA 	Keypress: 0
+243.7523 	DATA 	Mouse: Left button down, pos=(698,154)
+243.7581 	EXP 	New trial (rep=3, index=0): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+243.7660 	EXP 	text: autoDraw = False
+243.7660 	EXP 	textbox: autoDraw = False
+243.7660 	EXP 	fixation: autoDraw = True
+243.8714 	DATA 	Mouse:  Left button up, pos=(698,154)
+244.7561 	EXP 	fixation: autoDraw = False
+244.7561 	EXP 	polygon: autoDraw = True
+245.3876 	DATA 	Keypress: space
+245.3932 	EXP 	fixation: autoDraw = False
+245.3932 	EXP 	polygon: autoDraw = False
+246.3816 	EXP 	text: autoDraw = True
+246.3816 	EXP 	textbox: autoDraw = True
+247.4580 	DATA 	Keypress: 2
+247.7745 	DATA 	Keypress: 0
+247.9773 	DATA 	Keypress: 0
+248.4692 	DATA 	Mouse: Left button down, pos=(698,154)
+248.4748 	EXP 	New trial (rep=3, index=1): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+248.4830 	EXP 	text: autoDraw = False
+248.4830 	EXP 	textbox: autoDraw = False
+248.4830 	EXP 	fixation: autoDraw = True
+248.6553 	DATA 	Mouse:  Left button up, pos=(698,154)
+249.4732 	EXP 	fixation: autoDraw = False
+249.4732 	EXP 	polygon: autoDraw = True
+250.6212 	DATA 	Keypress: space
+250.6332 	EXP 	fixation: autoDraw = False
+250.6332 	EXP 	polygon: autoDraw = False
+251.0159 	EXP 	text: autoDraw = True
+251.0159 	EXP 	textbox: autoDraw = True
+252.3339 	DATA 	Keypress: 3
+252.5171 	DATA 	Keypress: 0
+252.6771 	DATA 	Keypress: 0
+253.1524 	DATA 	Mouse: Left button down, pos=(698,154)
+253.1583 	EXP 	New trial (rep=3, index=2): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+253.1660 	EXP 	text: autoDraw = False
+253.1660 	EXP 	textbox: autoDraw = False
+253.1660 	EXP 	fixation: autoDraw = True
+253.3219 	DATA 	Mouse:  Left button up, pos=(698,154)
+254.1567 	EXP 	fixation: autoDraw = False
+254.1567 	EXP 	polygon: autoDraw = True
+254.4332 	EXP 	fixation: autoDraw = False
+254.4332 	EXP 	polygon: autoDraw = False
+254.4372 	DATA 	Keypress: space
+254.8279 	EXP 	text: autoDraw = True
+254.8279 	EXP 	textbox: autoDraw = True
+255.4610 	DATA 	Keypress: 2
+255.6448 	DATA 	Keypress: 0
+255.7934 	DATA 	Keypress: 0
+256.3690 	DATA 	Mouse: Left button down, pos=(698,154)
+256.3748 	EXP 	New trial (rep=3, index=3): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+256.3827 	EXP 	text: autoDraw = False
+256.3827 	EXP 	textbox: autoDraw = False
+256.3827 	EXP 	fixation: autoDraw = True
+256.5217 	DATA 	Mouse:  Left button up, pos=(698,154)
+257.3734 	EXP 	fixation: autoDraw = False
+257.3734 	EXP 	polygon: autoDraw = True
+257.6364 	DATA 	Keypress: space
+257.6420 	EXP 	fixation: autoDraw = False
+257.6420 	EXP 	polygon: autoDraw = False
+258.6278 	EXP 	text: autoDraw = True
+258.6278 	EXP 	textbox: autoDraw = True
+259.5672 	DATA 	Keypress: 3
+259.7838 	DATA 	Keypress: 0
+259.8938 	DATA 	Keypress: 0
+260.2526 	DATA 	Mouse: Left button down, pos=(698,154)
+260.2586 	EXP 	New trial (rep=3, index=4): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+260.2669 	EXP 	text: autoDraw = False
+260.2669 	EXP 	textbox: autoDraw = False
+260.2669 	EXP 	fixation: autoDraw = True
+260.4051 	DATA 	Mouse:  Left button up, pos=(698,154)
+261.2566 	EXP 	fixation: autoDraw = False
+261.2566 	EXP 	polygon: autoDraw = True
+261.5762 	DATA 	Keypress: space
+261.5818 	EXP 	fixation: autoDraw = False
+261.5818 	EXP 	polygon: autoDraw = False
+262.2790 	EXP 	text: autoDraw = True
+262.2790 	EXP 	textbox: autoDraw = True
+263.0082 	DATA 	Keypress: 2
+263.3172 	DATA 	Keypress: 0
+263.4604 	DATA 	Keypress: 0
+264.1862 	DATA 	Keypress: backspace
+264.3573 	DATA 	Keypress: backspace
+264.5239 	DATA 	Keypress: backspace
+264.6577 	DATA 	Keypress: 1
+264.8242 	DATA 	Keypress: 0
+264.9865 	DATA 	Keypress: 0
+265.3359 	DATA 	Mouse: Left button down, pos=(698,154)
+265.3417 	EXP 	New trial (rep=3, index=5): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+265.3494 	EXP 	text: autoDraw = False
+265.3494 	EXP 	textbox: autoDraw = False
+265.3494 	EXP 	fixation: autoDraw = True
+265.4715 	DATA 	Mouse:  Left button up, pos=(698,154)
+266.3398 	EXP 	fixation: autoDraw = False
+266.3398 	EXP 	polygon: autoDraw = True
+266.6266 	DATA 	Keypress: space
+266.6322 	EXP 	fixation: autoDraw = False
+266.6322 	EXP 	polygon: autoDraw = False
+267.3276 	EXP 	text: autoDraw = True
+267.3276 	EXP 	textbox: autoDraw = True
+267.9172 	DATA 	Keypress: 1
+268.2004 	DATA 	Keypress: 0
+268.3443 	DATA 	Keypress: 0
+268.9357 	DATA 	Mouse: Left button down, pos=(698,154)
+268.9416 	EXP 	New trial (rep=3, index=6): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+268.9494 	EXP 	text: autoDraw = False
+268.9494 	EXP 	textbox: autoDraw = False
+268.9494 	EXP 	fixation: autoDraw = True
+269.1219 	DATA 	Mouse:  Left button up, pos=(698,154)
+269.9403 	EXP 	fixation: autoDraw = False
+269.9403 	EXP 	polygon: autoDraw = True
+270.4757 	DATA 	Keypress: space
+270.4827 	EXP 	fixation: autoDraw = False
+270.4827 	EXP 	polygon: autoDraw = False
+271.4657 	EXP 	text: autoDraw = True
+271.4657 	EXP 	textbox: autoDraw = True
+272.8172 	DATA 	Keypress: 1
+273.1912 	DATA 	Keypress: 0
+273.4338 	DATA 	Keypress: 0
+273.9522 	DATA 	Mouse: Left button down, pos=(698,154)
+273.9583 	EXP 	New trial (rep=3, index=7): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+273.9664 	EXP 	text: autoDraw = False
+273.9664 	EXP 	textbox: autoDraw = False
+273.9664 	EXP 	fixation: autoDraw = True
+274.1552 	DATA 	Mouse:  Left button up, pos=(698,154)
+274.9565 	EXP 	fixation: autoDraw = False
+274.9565 	EXP 	polygon: autoDraw = True
+275.7758 	DATA 	Keypress: space
+275.7827 	EXP 	fixation: autoDraw = False
+275.7827 	EXP 	polygon: autoDraw = False
+276.1775 	EXP 	text: autoDraw = True
+276.1775 	EXP 	textbox: autoDraw = True
+279.0005 	DATA 	Keypress: 1
+279.2533 	DATA 	Keypress: 0
+279.4339 	DATA 	Keypress: 0
+279.8356 	DATA 	Mouse: Left button down, pos=(698,154)
+279.8415 	EXP 	New trial (rep=3, index=8): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+279.8494 	EXP 	text: autoDraw = False
+279.8494 	EXP 	textbox: autoDraw = False
+279.8494 	EXP 	fixation: autoDraw = True
+280.0220 	DATA 	Mouse:  Left button up, pos=(698,154)
+280.8395 	EXP 	fixation: autoDraw = False
+280.8395 	EXP 	polygon: autoDraw = True
+281.6883 	DATA 	Keypress: space
+281.6940 	EXP 	fixation: autoDraw = False
+281.6940 	EXP 	polygon: autoDraw = False
+282.3846 	EXP 	text: autoDraw = True
+282.3846 	EXP 	textbox: autoDraw = True
+282.9507 	DATA 	Keypress: 2
+283.2338 	DATA 	Keypress: 0
+283.4201 	DATA 	Keypress: 0
+284.4360 	DATA 	Mouse: Left button down, pos=(698,154)
+284.4421 	EXP 	New trial (rep=3, index=9): OrderedDict([('delay', 0.7), ('freq', 400), ('condition', 'unexp')])
+284.4503 	EXP 	text: autoDraw = False
+284.4503 	EXP 	textbox: autoDraw = False
+284.4503 	EXP 	fixation: autoDraw = True
+284.5887 	DATA 	Mouse:  Left button up, pos=(698,154)
+285.4398 	EXP 	fixation: autoDraw = False
+285.4398 	EXP 	polygon: autoDraw = True
+286.1717 	DATA 	Keypress: space
+286.1768 	EXP 	fixation: autoDraw = False
+286.1768 	EXP 	polygon: autoDraw = False
+287.1649 	EXP 	text: autoDraw = True
+287.1649 	EXP 	textbox: autoDraw = True
+288.4747 	DATA 	Keypress: 3
+289.0602 	DATA 	Keypress: backspace
+289.2671 	DATA 	Keypress: 4
+289.8742 	DATA 	Keypress: 0
+290.0037 	DATA 	Keypress: 0
+290.8526 	DATA 	Mouse: Left button down, pos=(698,154)
+290.8584 	EXP 	New trial (rep=3, index=10): OrderedDict([('delay', 0.4), ('freq', 400), ('condition', 'unexp')])
+290.8661 	EXP 	text: autoDraw = False
+290.8661 	EXP 	textbox: autoDraw = False
+290.8661 	EXP 	fixation: autoDraw = True
+291.0387 	DATA 	Mouse:  Left button up, pos=(698,154)
+291.8559 	EXP 	fixation: autoDraw = False
+291.8559 	EXP 	polygon: autoDraw = True
+293.5433 	DATA 	Keypress: space
+293.5487 	EXP 	fixation: autoDraw = False
+293.5487 	EXP 	polygon: autoDraw = False
+294.2458 	EXP 	text: autoDraw = True
+294.2458 	EXP 	textbox: autoDraw = True
+295.3745 	DATA 	Keypress: 3
+295.6076 	DATA 	Keypress: 0
+295.8268 	DATA 	Keypress: 0
+296.3026 	DATA 	Mouse: Left button down, pos=(698,154)
+296.3087 	EXP 	New trial (rep=3, index=11): OrderedDict([('delay', 0.1), ('freq', 400), ('condition', 'unexp')])
+296.3161 	EXP 	text: autoDraw = False
+296.3161 	EXP 	textbox: autoDraw = False
+296.3161 	EXP 	fixation: autoDraw = True
+296.4552 	DATA 	Mouse:  Left button up, pos=(698,154)
+297.3067 	EXP 	fixation: autoDraw = False
+297.3067 	EXP 	polygon: autoDraw = True
+298.2216 	DATA 	Keypress: space
+298.2331 	EXP 	fixation: autoDraw = False
+298.2331 	EXP 	polygon: autoDraw = False
+298.6259 	EXP 	text: autoDraw = True
+298.6259 	EXP 	textbox: autoDraw = True
+299.2914 	DATA 	Keypress: 3
+299.5202 	DATA 	Keypress: 0
+299.7106 	DATA 	Keypress: 0
+300.8903 	DATA 	Keypress: backspace
+301.0575 	DATA 	Keypress: backspace
+301.2500 	DATA 	Keypress: backspace
+301.5078 	DATA 	Keypress: 2
+301.7865 	DATA 	Keypress: 0
+302.1107 	DATA 	Keypress: 0
+303.0859 	DATA 	Mouse: Left button down, pos=(698,154)
+303.0919 	EXP 	New trial (rep=4, index=0): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+303.0996 	EXP 	text: autoDraw = False
+303.0996 	EXP 	textbox: autoDraw = False
+303.0996 	EXP 	fixation: autoDraw = True
+303.2383 	DATA 	Mouse:  Left button up, pos=(698,154)
+304.0895 	EXP 	fixation: autoDraw = False
+304.0895 	EXP 	polygon: autoDraw = True
+305.2053 	DATA 	Keypress: space
+305.2110 	EXP 	fixation: autoDraw = False
+305.2110 	EXP 	polygon: autoDraw = False
+305.8994 	EXP 	text: autoDraw = True
+305.8994 	EXP 	textbox: autoDraw = True
+306.7576 	DATA 	Keypress: 4
+306.9938 	DATA 	Keypress: 0
+307.2106 	DATA 	Keypress: 0
+307.6024 	DATA 	Mouse: Left button down, pos=(698,154)
+307.6082 	EXP 	New trial (rep=4, index=1): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+307.6163 	EXP 	text: autoDraw = False
+307.6163 	EXP 	textbox: autoDraw = False
+307.6163 	EXP 	fixation: autoDraw = True
+307.7720 	DATA 	Mouse:  Left button up, pos=(698,154)
+308.6066 	EXP 	fixation: autoDraw = False
+308.6066 	EXP 	polygon: autoDraw = True
+309.2257 	DATA 	Keypress: space
+309.2328 	EXP 	fixation: autoDraw = False
+309.2328 	EXP 	polygon: autoDraw = False
+310.2277 	EXP 	text: autoDraw = True
+310.2277 	EXP 	textbox: autoDraw = True
+310.7412 	DATA 	Keypress: 4
+310.9746 	DATA 	Keypress: 0
+311.1172 	DATA 	Keypress: 0
+311.5358 	DATA 	Mouse: Left button down, pos=(698,154)
+311.5420 	EXP 	New trial (rep=4, index=2): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+311.5494 	EXP 	text: autoDraw = False
+311.5494 	EXP 	textbox: autoDraw = False
+311.5494 	EXP 	fixation: autoDraw = True
+311.7054 	DATA 	Mouse:  Left button up, pos=(698,154)
+312.5400 	EXP 	fixation: autoDraw = False
+312.5400 	EXP 	polygon: autoDraw = True
+315.0358 	DATA 	Mouse: Left button down, pos=(698,154)
+315.1370 	DATA 	Mouse:  Left button up, pos=(698,154)
+315.5050 	DATA 	Keypress: space
+315.5106 	EXP 	fixation: autoDraw = False
+315.5106 	EXP 	polygon: autoDraw = False
+315.9106 	EXP 	text: autoDraw = True
+315.9106 	EXP 	textbox: autoDraw = True
+316.7673 	DATA 	Keypress: 2
+316.9198 	DATA 	Keypress: 0
+317.0912 	DATA 	Keypress: 0
+317.4691 	DATA 	Mouse: Left button down, pos=(698,154)
+317.4751 	EXP 	New trial (rep=4, index=3): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+317.4829 	EXP 	text: autoDraw = False
+317.4829 	EXP 	textbox: autoDraw = False
+317.4829 	EXP 	fixation: autoDraw = True
+317.6387 	DATA 	Mouse:  Left button up, pos=(698,154)
+318.4733 	EXP 	fixation: autoDraw = False
+318.4733 	EXP 	polygon: autoDraw = True
+319.7883 	DATA 	Keypress: space
+319.7941 	EXP 	fixation: autoDraw = False
+319.7941 	EXP 	polygon: autoDraw = False
+320.1827 	EXP 	text: autoDraw = True
+320.1827 	EXP 	textbox: autoDraw = True
+320.6834 	DATA 	Keypress: 1
+320.9072 	DATA 	Keypress: 0
+321.0577 	DATA 	Keypress: 0
+321.4525 	DATA 	Mouse: Left button down, pos=(698,154)
+321.4584 	EXP 	New trial (rep=4, index=4): OrderedDict([('delay', 0.1), ('freq', 1000), ('condition', 'exp')])
+321.4660 	EXP 	text: autoDraw = False
+321.4660 	EXP 	textbox: autoDraw = False
+321.4660 	EXP 	fixation: autoDraw = True
+321.6386 	DATA 	Mouse:  Left button up, pos=(698,154)
+322.4566 	EXP 	fixation: autoDraw = False
+322.4566 	EXP 	polygon: autoDraw = True
+322.7193 	DATA 	Keypress: space
+322.7250 	EXP 	fixation: autoDraw = False
+322.7250 	EXP 	polygon: autoDraw = False
+323.1107 	EXP 	text: autoDraw = True
+323.1107 	EXP 	textbox: autoDraw = True
+323.3950 	DATA 	Keypress: 1
+323.7909 	DATA 	Keypress: 0
+323.9340 	DATA 	Keypress: 0
+324.3357 	DATA 	Mouse: Left button down, pos=(698,154)
+324.3417 	EXP 	New trial (rep=4, index=5): OrderedDict([('delay', 0.4), ('freq', 400), ('condition', 'unexp')])
+324.3494 	EXP 	text: autoDraw = False
+324.3494 	EXP 	textbox: autoDraw = False
+324.3494 	EXP 	fixation: autoDraw = True
+324.4884 	DATA 	Mouse:  Left button up, pos=(698,154)
+325.3396 	EXP 	fixation: autoDraw = False
+325.3396 	EXP 	polygon: autoDraw = True
+327.1098 	DATA 	Keypress: space
+327.1153 	EXP 	fixation: autoDraw = False
+327.1153 	EXP 	polygon: autoDraw = False
+327.8111 	EXP 	text: autoDraw = True
+327.8111 	EXP 	textbox: autoDraw = True
+328.2873 	DATA 	Keypress: 2
+328.5773 	DATA 	Keypress: 0
+328.7005 	DATA 	Keypress: 0
+329.5352 	DATA 	Mouse: Left button down, pos=(698,154)
+329.5411 	EXP 	New trial (rep=4, index=6): OrderedDict([('delay', 0.7), ('freq', 400), ('condition', 'unexp')])
+329.5495 	EXP 	text: autoDraw = False
+329.5495 	EXP 	textbox: autoDraw = False
+329.5495 	EXP 	fixation: autoDraw = True
+329.6716 	DATA 	Mouse:  Left button up, pos=(698,154)
+330.5395 	EXP 	fixation: autoDraw = False
+330.5395 	EXP 	polygon: autoDraw = True
+331.5595 	DATA 	Keypress: space
+331.5652 	EXP 	fixation: autoDraw = False
+331.5652 	EXP 	polygon: autoDraw = False
+332.5607 	EXP 	text: autoDraw = True
+332.5607 	EXP 	textbox: autoDraw = True
+333.5945 	DATA 	Keypress: 5
+333.8172 	DATA 	Keypress: 0
+333.9700 	DATA 	Keypress: 0
+334.3692 	DATA 	Mouse: Left button down, pos=(698,154)
+334.3750 	EXP 	New trial (rep=4, index=7): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+334.3827 	EXP 	text: autoDraw = False
+334.3827 	EXP 	textbox: autoDraw = False
+334.3827 	EXP 	fixation: autoDraw = True
+334.5217 	DATA 	Mouse:  Left button up, pos=(698,154)
+335.3733 	EXP 	fixation: autoDraw = False
+335.3733 	EXP 	polygon: autoDraw = True
+336.0874 	DATA 	Keypress: space
+336.0930 	EXP 	fixation: autoDraw = False
+336.0930 	EXP 	polygon: autoDraw = False
+337.0824 	EXP 	text: autoDraw = True
+337.0824 	EXP 	textbox: autoDraw = True
+338.0110 	DATA 	Keypress: 4
+338.4371 	DATA 	Keypress: 0
+338.6077 	DATA 	Keypress: 0
+339.0025 	DATA 	Mouse: Left button down, pos=(698,154)
+339.0084 	EXP 	New trial (rep=4, index=8): OrderedDict([('delay', 0.7), ('freq', 1000), ('condition', 'exp')])
+339.0163 	EXP 	text: autoDraw = False
+339.0163 	EXP 	textbox: autoDraw = False
+339.0163 	EXP 	fixation: autoDraw = True
+339.1552 	DATA 	Mouse:  Left button up, pos=(698,154)
+340.0065 	EXP 	fixation: autoDraw = False
+340.0065 	EXP 	polygon: autoDraw = True
+340.4053 	DATA 	Keypress: space
+340.4109 	EXP 	fixation: autoDraw = False
+340.4109 	EXP 	polygon: autoDraw = False
+341.3987 	EXP 	text: autoDraw = True
+341.3987 	EXP 	textbox: autoDraw = True
+341.7535 	DATA 	Keypress: 4
+342.0172 	DATA 	Keypress: 0
+342.1582 	DATA 	Keypress: 0
+342.8933 	DATA 	Keypress: backspace
+343.0741 	DATA 	Keypress: backspace
+343.4407 	DATA 	Keypress: backspace
+343.6839 	DATA 	Keypress: 3
+344.1103 	DATA 	Keypress: 0
+344.2700 	DATA 	Keypress: 0
+344.6525 	DATA 	Mouse: Left button down, pos=(698,154)
+344.6584 	EXP 	New trial (rep=4, index=9): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+344.6660 	EXP 	text: autoDraw = False
+344.6660 	EXP 	textbox: autoDraw = False
+344.6660 	EXP 	fixation: autoDraw = True
+344.7882 	DATA 	Mouse:  Left button up, pos=(698,154)
+345.3541 	DATA 	Keypress: space
+345.6572 	EXP 	fixation: autoDraw = False
+345.6572 	EXP 	polygon: autoDraw = True
+345.9213 	DATA 	Keypress: space
+345.9271 	EXP 	fixation: autoDraw = False
+345.9271 	EXP 	polygon: autoDraw = False
+346.6152 	EXP 	text: autoDraw = True
+346.6152 	EXP 	textbox: autoDraw = True
+347.2081 	DATA 	Keypress: 2
+347.3866 	DATA 	Keypress: 0
+347.5277 	DATA 	Keypress: 0
+347.9023 	DATA 	Mouse: Left button down, pos=(698,154)
+347.9083 	EXP 	New trial (rep=4, index=10): OrderedDict([('delay', 0.4), ('freq', 1000), ('condition', 'exp')])
+347.9164 	EXP 	text: autoDraw = False
+347.9164 	EXP 	textbox: autoDraw = False
+347.9164 	EXP 	fixation: autoDraw = True
+348.0720 	DATA 	Mouse:  Left button up, pos=(698,154)
+348.9068 	EXP 	fixation: autoDraw = False
+348.9068 	EXP 	polygon: autoDraw = True
+349.9833 	EXP 	fixation: autoDraw = False
+349.9833 	EXP 	polygon: autoDraw = False
+349.9869 	DATA 	Keypress: space
+350.6755 	EXP 	text: autoDraw = True
+350.6755 	EXP 	textbox: autoDraw = True
+351.2006 	DATA 	Keypress: 2
+351.4532 	DATA 	Keypress: 0
+351.5839 	DATA 	Keypress: 0
+351.9192 	DATA 	Mouse: Left button down, pos=(698,154)
+351.9251 	EXP 	New trial (rep=4, index=11): OrderedDict([('delay', 0.1), ('freq', 400), ('condition', 'unexp')])
+351.9333 	EXP 	text: autoDraw = False
+351.9333 	EXP 	textbox: autoDraw = False
+351.9333 	EXP 	fixation: autoDraw = True
+352.0718 	DATA 	Mouse:  Left button up, pos=(698,154)
+352.9238 	EXP 	fixation: autoDraw = False
+352.9238 	EXP 	polygon: autoDraw = True
+353.5860 	DATA 	Keypress: space
+353.5916 	EXP 	fixation: autoDraw = False
+353.5916 	EXP 	polygon: autoDraw = False
+353.9780 	EXP 	text: autoDraw = True
+353.9780 	EXP 	textbox: autoDraw = True
+355.5868 	DATA 	Keypress: 1
+355.7741 	DATA 	Keypress: 0
+355.9338 	DATA 	Keypress: 0
+356.2859 	DATA 	Mouse: Left button down, pos=(698,154)
+356.2999 	EXP 	text: autoDraw = False
+356.2999 	EXP 	textbox: autoDraw = False
+356.3270 	EXP 	window1: mouseVisible = True
